@@ -4,6 +4,7 @@ CC = gcc
 
   TARGET = main2
   QQ = main
+  SORTC = sort
 
   all: $(TARGET) $(QQ) $(SORTC)
 
