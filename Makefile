@@ -15,7 +15,7 @@ CC = gcc
 	$(CC) $(CFLAGS) -o $(QQ) $(QQ).c
 
   $(SORTC): $(SORTC)
-	$(CC) $(CFLAGS) -o $(SORTC) $(SORTC).c
+	$(CC) $(CFLAGS) -o sorlst  $(SORTC).c
   
   clean:
 	$(RM) $(TARGET)
